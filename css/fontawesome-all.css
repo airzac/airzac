@@ -1432,6 +1432,14 @@ readers do not read off random characters that represent icons */
 .fa-itunes-note:before {
   content: "\f3b5"; }
 
+  
+ .fa-java:before {
+  content: "\f4e4";
+  //background-image: url("java.png");
+  } 
+  
+  
+  
 .fa-jenkins:before {
   content: "\f3b6"; }
 
@@ -2724,3 +2732,36 @@ readers do not read off random characters that represent icons */
 .fas {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900; }
+  
+  
+  .mylogos{
+    font-size: 20px;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+	filter:invert(1);
+	background: #4c6ef5 ;
+	
+	}
+	
+	
+	
+
+
+.f1:hover .mylogos {
+    background: #ff4f81;
+    color: #fff;
+}
+	
+	
+   
+	.f1:hover.f1 i, .f2-active i {
+    background: #ff4f81;
+    color: #fff;
+	filter:invert(1);
+}
+	
+	
